@@ -1,0 +1,215 @@
+.bg-light {
+  background-color: rgba(46, 26, 97, 0.1) !important;
+}
+.header {
+  width: 100%;
+  background: linear-gradient(180deg, #88d3ce 0%, #423864 100%);
+}
+
+.header {
+  height: 711px;
+}
+.navbar-light .navbar-brand {
+  color: #ffffff;
+  font-family: "Roboto Condensed Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Inter Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #ffffff;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #ffffff;
+}
+
+.nav-button {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.nav-button span {
+  font-family: "Roboto Condensed Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #181818;
+}
+
+.t360-nav-brand-txt {
+  font-family: "Roboto Condensed Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  margin-left: 10px;
+}
+.navLogo {
+  width: 27px;
+  height: 28px;
+  margin-left: 17px;
+}
+
+.circle-top {
+  position: absolute;
+  width: 7px;
+  height: 8px;
+  left: 226px;
+  top: 15px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.navbar {
+  padding: 0.6rem 103px;
+}
+.navbar-expand-lg .navbar-nav {
+  margin-left: 20px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 17px;
+  }
+}
+
+
+
+.main-heading-navbar-banner {
+  font-family: "Roboto Condensed Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 88px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  padding-left: 14px;
+  color: #ffffff;
+}
+
+
+.sub-heading-navbar-banner {
+  font-family: "Roboto Condensed Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-top: 28px;
+  max-width: 515px;
+}
+.main-heading-container {
+  max-width: 637px;
+  margin: 0 auto;
+  height: 429px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+}
+.sub-heading-container {
+  width: 525px;
+  height: 60px;
+  margin: auto;
+  margin-top: 47px;
+}
+.banner-bottom-btn-container {
+  justify-content: space-between;
+  display: flex;
+  width: -moz-fit-content;
+  margin: 82px auto;
+  margin-top: 82px;
+  max-width: 368px;
+}
+.banner-getstarted-btn {
+  background: #ffffff;
+  box-shadow: 0px 4px 31px rgb(0 0 0 / 15%);
+  border-radius: 6px;
+  padding: 19px 40px;
+  margin-left: 15px;
+}
+
+.banner-getstarted-btn span {
+  font-family: "Roboto Condensed Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #181818;
+}
+
+.learn-more-btn {
+  background: #4d5075;
+  border-radius: 6px;
+  padding: 18px 39px 18px 41px;
+  border: 1px solid #ffffff;
+}
+
+.align-btn-right {
+  margin-left: 19px;
+}
+.learn-more-btn span {
+  font-family: "Roboto Condensed Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.nav-button {
+  width: 101px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+
+@media (max-width: 400px) {
+  .main-heading-navbar-banner {
+    font-family: "Roboto Condensed Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-left: 14px;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 992px) {
+  .circle-top{
+    left: 160px;
+  }
+  .navbar {
+    padding: 0.6rem 26px;
+  }
+}
